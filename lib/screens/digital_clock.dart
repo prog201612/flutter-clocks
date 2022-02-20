@@ -18,6 +18,7 @@ class _DigitalClockState extends State<DigitalClock> {
 
   handleTimeout(Timer timer) {
     final now = DateTime.now();
+    print(now);
     hours = now.hour;
     minutes = now.minute;
     seconds = now.second;

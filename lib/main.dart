@@ -1,4 +1,5 @@
 import 'package:clock_app/screens/analogic_clock.dart';
+import 'package:clock_app/screens/circular_drill_clock.dart';
 import 'package:clock_app/screens/digital_sugar_clock.dart';
 import 'package:flutter/material.dart';
 
@@ -45,6 +46,8 @@ class MyApp extends StatelessWidget {
                 borderColor: Colors.orange,
                 blinkSeconds: true,
               ),
+              SizedBox(width: 50),
+              CircularDrillClock(),
             ],
           ),
         ),

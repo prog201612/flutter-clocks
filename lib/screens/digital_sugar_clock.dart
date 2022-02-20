@@ -94,7 +94,7 @@ class _DigitalSugarClockState extends State<DigitalSugarClock> {
             // m i n u t e s
 
             Text(
-              hours,
+              minutes,
               style: TextStyle(
                 color: widget.foregroundColor,
                 fontWeight: FontWeight.bold,
